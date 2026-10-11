@@ -25,40 +25,7 @@ URL = "https://www.facebook.com/api/graphql/"
 OUTPUT_TXT = "response.txt"
 
 HEADERS = {
-    "accept": "*/*",
-    "accept-encoding": "gzip, deflate",   # no "br" -> no brotli needed
-    "accept-language": "en-US,en;q=0.8",
-    "content-type": "application/x-www-form-urlencoded",
-    "cookie": (
-        "datr=cu-makpl7zf0mDBJxKnlJhdO; "
-        "sb=cu-mah1IZWrKqqjazMiS_HyT; "
-        "wd=1776x828; "
-        "dpr=0.75"
-    ),
-    "origin": "https://www.facebook.com",
-    "priority": "u=1, i",
-    "referer": (
-        "https://www.facebook.com/login/identify/?ci="
-        "AdDOWVT74CFkAja5PDbBSHAIH0V4X_FKWb-r-gQRGthUT-jUwf4FLqSolzwvSMezAWE1IKmRkT6oLy82_o6oI-BUISBEqTffFFcPrTJ07RzRejWjgyOI89RNcdGZbx6nhZaXZrn1i6WpJfBUE2JNnTh0iegQIbXOgSUxBaYAm-lapbmWc2ZSvK_3OO4toh4jIcZY-0HmP-Q2DxhuohHLesfhgOoWqJImBJwyAd9_aG12kwIEJpumvzemooWbz4FgDd8qS_CSw4P4LYXbum4"
-    ),
-    "sec-ch-ua": '"Not=A?Brand";v="99", "Google Chrome";v="151", "Chromium";v="151"',
-    "sec-ch-ua-full-version-list": '"Not=A?Brand";v="99.0.0.0", "Google Chrome";v="151.0.0.0", "Chromium";v="151.0.0.0"',
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-model": '""',
-    "sec-ch-ua-platform": '"Linux"',
-    "sec-ch-ua-platform-version": '""',
-    "sec-fetch-dest": "empty",
-    "sec-fetch-mode": "cors",
-    "sec-fetch-site": "same-origin",
-    "sec-gpc": "1",
-    "user-agent": (
-        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
-    ),
-    "x-asbd-id": "359341",
-    "x-fb-friendly-name": "CAAFBAccountSearchViewQuery",
-    "x-fb-lsd": "AdSzQO9PQ8nPLSW1Tqy9mBAlDy0",
-}
+    }
 
 
 # ============================================================
